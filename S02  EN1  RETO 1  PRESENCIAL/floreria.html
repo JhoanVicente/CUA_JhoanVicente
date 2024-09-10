@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JARDÍN DEL ALMA</title>
+    <style>
+        /* Estilos globales para el cuerpo de la página */
+        body {
+            font-family: Arial, sans-serif; /* Fuente predeterminada para la página */
+            text-align: center; /* Alinea el texto al centro */
+            margin: 0; /* Elimina márgenes por defecto */
+            padding: 0; /* Elimina relleno por defecto */
+            background-color: #f4f4f4; /* Color de fondo claro */
+        }
+        
+        /* Estilos para el encabezado principal */
+        h1 {
+            background-color: DodgerBlue; /* Color de fondo azul */
+            color: white; /* Color del texto blanco */
+            padding: 10px; /* Espacio interno */
+            margin: 0; /* Elimina el margen por defecto */
+        }
+
+        /* Estilos para los encabezados secundarios */
+        h2 {
+            color: Tomato; /* Color del texto rojo tomate */
+            margin-top: 20px; /* Espacio superior para separación */
+        }
+        
+        /* Estilos para el texto en negrita dentro de los párrafos */
+        p strong {
+            color: MediumSeaGreen; /* Color verde marino */
+            font-weight: bold; /* Texto en negrita */
+        }
+        
+        /* Estilos para las tablas */
+        table {
+            width: 100%; /* Ancho completo del contenedor */
+            margin: 20px auto; /* Margen automático para centrar la tabla */
+            border-collapse: collapse; /* Colapsa los bordes de la tabla */
+            max-width: 1200px; /* Limita el ancho máximo de la tabla */
+        }
+
+        /* Estilos para las celdas de las tablas */
+        th, td {
+            border: 1px solid black; /* Bordes de las celdas */
+            padding: 10px; /* Espacio interno en las celdas */
+            text-align: center; /* Alinea el texto al centro */
+        }
+
+        /* Estilos para las imágenes */
+        img {
+            max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+            height: auto; /* Ajusta la altura proporcionalmente */
+            display: block; /* Asegura que las imágenes se comporten como bloques */
+            margin: 10px auto; /* Margen automático para centrar la imagen */
+            border-radius: 8px; /* Bordes redondeados opcionales */
+        }
+        
+        /* Estilos para los iframes (videos incrustados) */
+        iframe {
+            width: 100%; /* Ancho completo del contenedor */
+            height: auto; /* Ajusta la altura proporcionalmente */
+            max-width: 560px; /* Limita el ancho máximo del iframe */
+            margin: 20px auto; /* Margen automático para centrar el iframe */
+        }
+
+        /* Estilos para el formulario */
+        form {
+            margin-top: 20px; /* Espacio superior para separación */
+            background-color: white; /* Color de fondo blanco */
+            padding: 20px; /* Espacio interno */
+            border-radius: 8px; /* Bordes redondeados */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+            display: inline-block; /* Hace que el formulario se ajuste al contenido */
+            width: 90%; /* Ancho del formulario con un margen de 10% */
+            max-width: 500px; /* Limita el ancho máximo del formulario */
+        }
+
+        /* Estilos para los elementos del formulario */
+        label, input, select, button {
+            display: block; /* Hace que cada elemento ocupe una línea completa */
+            margin: 10px 0; /* Espacio vertical entre los elementos */
+            width: 100%; /* Ancho completo del contenedor del formulario */
+            box-sizing: border-box; /* Incluye padding y bordes en el ancho total */
+        }
+
+        /* Estilos para los campos de texto, fechas y selección */
+        input[type="text"], input[type="date"], select {
+            padding: 8px; /* Espacio interno */
+            border: 1px solid #ccc; /* Borde gris claro */
+            border-radius: 4px; /* Bordes redondeados */
+        }
+
+        /* Estilos para los botones */
+        button {
+            background-color: DodgerBlue; /* Color de fondo azul */
+            color: white; /* Color del texto blanco */
+            padding: 10px; /* Espacio interno */
+            border: none; /* Elimina el borde por defecto */
+            border-radius: 4px; /* Bordes redondeados */
+            cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+        }
+
+        /* Estilos para el estado hover del botón */
+        button:hover {
+            background-color: RoyalBlue; /* Cambia el color de fondo cuando el cursor está sobre el botón */
+        }
+
+        /* Estilos para el footer */
+        footer {
+            background-color: DodgerBlue;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            margin-top: 20px;
+            border-top: 1px solid #ccc;
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Estilos responsivos para pantallas pequeñas */
+        @media (max-width: 768px) {
+            table {
+                font-size: 14px; /* Reduce el tamaño de la fuente en tablas para pantallas pequeñas */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Encabezado principal -->
+    <h1>BIENVENIDOS A EL JARDÍN DEL ALMA</h1>
+    <!-- Mensaje de bienvenida destacado -->
+    <p style="background-color:Tomato; color: white; padding: 10px;">¡El lugar ideal para un aroma genial!</p>
+
+    <!-- Sección de productos destacados -->
+    <h2>PRODUCTOS DESTACADOS</h2>
+    <table>
+        <tr>
+            <th>ROSAS</th>
+            <th>LIRIOS</th>
+            <th>TULIPÁN</th>
+        </tr>
+        <tr>
+            <td>
+                <p>La rosa es quizás una de las flores más <strong>populares en todo el mundo</strong>. Con sus pétalos suaves y delicados, la rosa viene en una amplia gama de colores, desde el clásico rojo pasión hasta el delicado rosa, el vibrante amarillo y el puro blanco.</p>
+                <img src="./IMG/img1.jpg" alt="rosas"> <!-- Imagen de rosas -->
+            </td>
+            <td>
+                <p>El lirio es una flor <strong>elegante y majestuosa</strong> que se destaca por sus tallos altos y sus flores grandes y llamativas. Con sus pétalos acampanados y sus colores vibrantes, el lirio agrega un toque de gracia y sofisticación.</p>
+                <img src="./IMG/img1.jpg" alt="lirios"> <!-- Imagen de lirios -->
+            </td>
+            <td>
+                <p>El tulipán es conocido por su belleza y simbolismo de <strong>amor y felicidad</strong>, lo que lo convierte en una opción popular para una amplia gama de ocasiones.</p>
+                <img src="./IMG/img1.jpg" alt="tulipanes"> <!-- Imagen de tulipanes -->
+            </td>
+        </tr>
+    </table>
+
+    <!-- Sección de video sobre flores -->
+    <h2>VIDEO SOBRE FLORES</h2>
+    <iframe src="https://www.youtube.com/embed/MLpwqVUBHek?si=3a-zDgm34KpnpGnl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+    <!-- Sección sobre ocasiones para regalar flores -->
+    <h2>¿QUÉ OCASIÓN DESEAS CELEBRAR?</h2>
+    <table>
+        <tr>
+            <th>ANIVERSARIO</th>
+            <th>AMISTAD</th>
+            <th>CUMPLEAÑOS</th>
+        </tr>
+        <tr>
+            <td>Regala un aroma increíble en tu aniversario para hacer el día aún más especial.</td>
+            <td>Comparte un hermoso ramo con tus seres queridos y celebra la amistad.</td>
+            <td>Haz que un cumpleaños sea memorable con flores llenas de vida y color.</td>
+        </tr>
+        <tr>
+            <td><img src="./IMG/aniversario.jpg" alt="aniversario"> <!-- Imagen para aniversario --></td>
+            <td><img src="./IMG/amistad.jpg" alt="amistad"> <!-- Imagen para amistad --></td>
+            <td><img src="./IMG/cumpleaños.jpg" alt="cumpleaños"> <!-- Imagen para cumpleaños --></td>
+        </tr>
+    </table>
+
+    <!-- Sección de formulario para reservar arreglos florales -->
+    <h2>RESERVA TU ARREGLO FLORAL</h2>
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+
+        <label for="fecha">Fecha de Entrega:</label>
+        <input type="date" id="fecha" name="fecha">
+
+        <label for="producto">Elige tu Producto:</label>
+        <select id="producto" name="producto">
+            <option value="rosa">Rosa</option>
+            <option value="lirios">Lirios</option>
+            <option value="tulipan">Tulipán</option>
+        </select>
+
+        <button type="submit">Enviar</button>
+    </form>
+    
+    <footer>
+        <p>&copy; 2024 Jardín del Alma. Todos los derechos reservados.</p>
+        <p>Contacto: <a href="mailto:info@jardindelalma.com">info@jardindelalma.com</a></p>
+    </footer>    
+</body>
+</html>
