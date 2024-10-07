@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="custom-form-container">
+        <div class="form-layout">
+            <!-- IMAGEN IZQUIERDA -->
+            <div class="left-image">
+                <img src="./Logo-VG_Tpt02.png" alt="Imagen Representativa">
+            </div>
+
+            <!-- FORMULARIO -->
+            <form class="custom-form">
+                <h2>BIENVENIDOS</h2>
+                <p>• Análisis de sistema • Producción Agraria</p>
+
+                <div class="form-group">
+                    <label for="nombre" class="form-label">Nombre completo</label>
+                    <input type="text" id="nombre" class="form-control" placeholder="Nombre completo">
+                </div>
+
+                <div class="form-group">
+                    <label for="apellido" class="form-label">Apellidos</label>
+                    <input type="text" id="apellido" class="form-control" placeholder="Apellidos">
+                </div>
+
+                <div class="form-group">
+                    <label for="edad" class="form-label">Edad</label>
+                    <input type="number" id="edad" class="form-control" placeholder="Edad">
+                </div>
+
+                <div class="form-group">
+                    <label for="correo" class="form-label">Correo</label>
+                    <input type="email" id="correo" class="form-control" placeholder="correo@example.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="password" class="form-label">Contraseña</label>
+                    <input type="password" id="password" class="form-control" placeholder="Contraseña">
+                </div>
+
+                <div class="form-group">
+                    <a href="#" class="forgot-password">¿Olvidaste tu contraseña?</a>
+                </div>
+
+                <div class="form-group">
+                    <input type="checkbox" id="policy">
+                    <label for="policy">Aceptar la política de privacidad de los Términos y condiciones.</label>
+                </div>
+
+                <button type="submit" class="btn-submit">REGISTRARME</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
