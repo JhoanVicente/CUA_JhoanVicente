@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Jhoan Daniel Vicente Cruz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h1>Hola, soy Jhoan Daniel Vicente Cruz</h1>
+        <p>Analista de sistemas con pasión por la tecnología, la creatividad y el aprendizaje constante. Mi enfoque se basa en crear experiencias digitales únicas y funcionales para mis clientes.</p>
+    </section>
+
+    <section id="proyectos">
+        <h2>Mis Proyectos</h2>
+        <div class="proyecto">
+            <img src="proyecto1.jpg" alt="Proyecto 1">
+            <h3>Proyecto 1</h3>
+            <p>DESARROLLLO DE ATUMOTATIZACIONES CON APPS SCRIPS. En un periodo de 4 meses trabaje en la mejora de los procesos de la IESTP Valle Grande especificamente en el sector de recepcion y emision automatica
+                de constancias de egresados a alumnos que hayan culminado sus estudios en la institución.</p>
+            <a href="proyecto1.html">Ver más</a>
+        </div>
+        <div class="proyecto">
+            <img src="proyecto2.jpg" alt="Proyecto 2">
+            <h3>Proyecto 2</h3>
+            <p>DESARROLLO DE UN SITIO WEB PARA LE I.E.P CENTRO DE VARONES. Un sitio web responsivo desarrollado con JAVA y Node.js, enfocado en las matriculas y fechas civicas importantes del centro de estudios.</p>
+            <a href="proyecto2.html">Ver más</a>
+        </div>
+    </section>
+
+    <section id="habilidades">
+        <h2>Habilidades Técnicas</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript (ES6+)</li>
+            <li>Node.js</li>
+            <li>Git & GitHub</li>
+            <li>Figma (Diseño UI/UX)</li>
+            <li>SQL (MySQL, PostgreSQL)</li>
+        </ul>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form action="#" method="post">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="correo">Correo electrónico</label>
+            <input type="email" id="correo" name="correo" required>
+            
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+        <p>O contáctame en <a href="mailto:jhoan.vicente@vallegrande.edu.pe">jhoan.vicente@vallegrande.edu.pe</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Jhoan Daniel Vicente Cruz. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        const toggleButton = document.getElementById('toggle-theme');
+        toggleButton.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+        });
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,138 @@
+/* Reseteo básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header y navegación */
+header {
+    background-color: #333;
+    padding: 50px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Sección de inicio */
+#inicio {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #000000;
+    color: white;
+}
+
+#inicio h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+#inicio p {
+    font-size: 1.2rem;
+}
+
+/* Proyectos */
+#proyectos {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.proyecto {
+    margin: 20px;
+    display: inline-block;
+    width: 300px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.proyecto img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.proyecto a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+.proyecto a:hover {
+    text-decoration: underline;
+}
+
+/* Habilidades */
+#habilidades ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+#habilidades ul li {
+    display: inline-block;
+    margin: 10px 20px;
+    font-size: 1.2rem;
+}
+
+/* Formulario de contacto */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #000000;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    color: white;
+}
